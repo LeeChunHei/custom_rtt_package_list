@@ -8,7 +8,7 @@ if PKG_USING_ST7735R_TFT
 
     config PKG_ST7735R_TFT_PATH
         string
-        default "/custom_packages/peripherals/st7735r_tft"
+        default "/packages/peripherals/st7735r_tft"
 
     choice
         prompt "Version"
@@ -98,7 +98,10 @@ if PKG_USING_ST7735R_TFT
         config PKG_ST7735R_HEIGHT
             int "Height of the tft lcd"
             default 160
+
+        config PKG_ST7735R_ORI
+            int "Orientation of the tft lcd"
+            default 2
     endif
 
 endif
-
