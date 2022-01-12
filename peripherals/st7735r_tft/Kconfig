@@ -8,7 +8,7 @@ if PKG_USING_ST7735R_TFT
 
     config PKG_ST7735R_TFT_PATH
         string
-        default "/custom_packages/peripherals/sensors/mt9v034_camera"
+        default "/custom_packages/peripherals/st7735r_tft"
 
     choice
         prompt "Version"
